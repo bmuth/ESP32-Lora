@@ -1,0 +1,16 @@
+Source:,C:\Users\Brian\OneDrive\Electronics\ESP32\Battery Charging\ESP32-Lora\ESP32-Lora\ESP32-Lora.kicad_sch,,,,,
+Date:,3/1/2022 18:59,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,1,C1,100nF,08055C104KAT4A,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,https://www.digikey.ca/en/products/detail/kyocera-avx/08055C104KAT4A/6816312
+2,1,D1,LED ,XZCM2CRK53WA-8VF,BMuth:LED XZCM2CRK53WA,https://www.digikey.ca/en/products/detail/sunled/XZCM2CRK53WA-8VF/10449772
+6,1,J3,+3.3V,,digikey-footprints:PinHeader_1x2_P2mm_Drill1mm,http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+7,1,J4,I2C,,digikey-footprints:PinHeader_1x4_P2mm_Drill1mm,http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+8,1,J5,SPI,,digikey-footprints:PinHeader_1x4_P2mm_Drill1mm,http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+9,1,J6,1909763-1,,digikey:Coax_Conn_U.FL,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English
+10,1,J7,UART,,digikey-footprints:PinHeader_1x4_P2mm_Drill1mm,http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+11,2,"R1, R3",10K,RNCP0805FTD10K0,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCP0805FTD10K0/2240262
+12,1,R2,1.5K,RMCF0805JG1K50,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805JG1K50/1711831
+13,1,SW1,Reset,MJTP1230?,BMuth:SW_PUSH_6.5mm_4.5mm,https://www.digikey.ca/en/products/detail/sunled/XZCM2CRK53WA-8VF/10449772
+14,1,SW2,Boot,MJTP1230?,BMuth:SW_PUSH_6.5mm_4.5mm,https://www.digikey.ca/en/products/detail/sunled/XZCM2CRK53WA-8VF/10449772
+15,1,U1,RFM95W-915S2,RF_Module:RFM95W-915S2,BMuthSnapEDA:XCVR_RFM95W-868S2,https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf
+16,1,U2,ESP32-WROOM-32D,RF_Module:ESP32-WROOM-32D,RF_Module:ESP32-WROOM-32,https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
